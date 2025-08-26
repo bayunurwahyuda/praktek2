@@ -1,0 +1,130 @@
+body{
+    background-color: powderblue;
+    width: 100%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+    /* outline: solid 1px black; */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .kotaklogin {
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
+    background-color: turquoise;
+    box-shadow: black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 2px 0px rgb(0, 0, 0);
+  }
+  input,
+  select {
+    width: 100%;
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: "Afacad Flux", sans-serif;
+  }
+  #kodeproduk {
+    width: 100%;
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 8px 0;
+  }
+  
+  button {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 0;
+  }
+  button :hover {
+    font-weight: bolder;
+    color: black;
+    background-color: blue;
+    transition: 1.5s;
+  }
+  label,
+  p {
+    font-family: "Afacad Flux", sans-serif;
+  }
+  li {
+    list-style: none;
+  }
+  .judultable {
+    font-family: "Afacad Flux", sans-serif;
+    text-align: center;
+  }
+  .table th,
+  .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  .aksi {
+    width: 75px;
+  }
+  .table th {
+    background-color: rgb(236, 14, 14);
+    color: white;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: rgb(9, 210, 237);
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    animation: fadeInRow 0.5s ease-in-out;
+    font-family: "Afacad Flux", sans-serif;
+  }
+  .container-table {
+    width: 100%;
+    height: 100%;
+    margin: 70px;
+    /* outline: solid 1px black; */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  button.delete {
+    background-color: red;
+  }
+  
+  button.delete:hover {
+    background-color: red;
+  }
+  button.edit:hover {
+    background-color: powderblue ;
+  }
+  
+  button.edit,
+  button.delete {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  .low-stock {
+    background-color: red;
+    color: white;
+  }
